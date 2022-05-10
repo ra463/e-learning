@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  padding: 1.3vmax 7vmax;
+}
+nav > .header-1 {
+  display: flex;
+  align-items: center;
+}
+nav > .header-1 > img {
+  width: 40px;
+}
+nav > .header-1 > h1 {
+  margin-left: 1vmax;
+  font-weight: bolder;
+}
+nav > .header-1 > h1 > span:first-child{
+    color: #181B9D;
+    /* font-style: italic; */
+}
+nav > .header-1 > h1 > span:last-child{
+    color: #8d3adb;
+    /* font-style: italic; */
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  margin-left: 20vmax;
+  margin-right: 2vmax;
+}
+nav > ul > li {
+  padding: 0 1.5vmax;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+nav ul li a:after {
+    content: " ";
+    position: absolute;
+    background-color: #ff0157;
+    height: 2px;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    transition: 0.3s all;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+.sign-in{
+    padding: 3px 1.8vmax;
+    margin: auto;
+    /* margin-right: 2vmax; */
+    border: 1px solid #422cca;
+    border-radius: 30px;
+    transition: 0.5s all;
+    width: 15vmax;
+    text-align: center;
+}
+.sign-in >  a{
+    text-decoration: none;
+    color: #8d3adb;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+.sign-in > a:hover{
+    color: white;
+}
+.sign-in:hover{
+    background-color: #422cca;
+}
+.speed-dial {
+  position: fixed;
+  top: 6.3vmax;
+  right: 3vmax;
+}
+.speeddial-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}

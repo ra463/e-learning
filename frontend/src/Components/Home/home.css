@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.title {
+  /* background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: linear-gradient(90deg, #9796f0, #fbc7d4);
+  height: 40vmax;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.left-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+}
+.left-title .welcome {
+  color: black;
+}
+.left-title p h1 {
+  color: white;
+  margin-top: -7px;
+}
+.left-title > p > h1 > span:first-child {
+  color: #181b9d;
+}
+.left-title > p > h1 > span:last-child {
+  color: #8d3adb;
+}
+.right-title {
+  margin-left: 50px;
+}
+.heading-1 {
+  font-size: 14px;
+  color: #181b9d;
+}
+.left-title > a {
+  width: 40%;
+}
+.right-title > img {
+  width: 40vmax;
+  background-color: azure;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease-in-out;
+}
+.btn {
+  font-size: 1.1em;
+  color: #ff0157;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 1s;
+  border-radius: 10px;
+  border: 1.5px solid darkorange;
+  box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.25);
+  width: 16vmax;
+}
+.btn:hover {
+  transform: scale(1.1);
+  color: darkorange;
+  border: 1.5px solid #ff0157;
+}
+.btn .button {
+  margin-right: 5px;
+}
+.head-1 {
+  padding: 0.3vmax 1vmax;
+  border-radius: 10px;
+  border: 2px solid #8d3adb;
+  color: #181b9d;
+  margin: 2vmax auto;
+  width: fit-content;
+}
+.courses {
+  display: flex;
+  width: 90%;
+  margin: 2vmax auto;
+  margin-top: 0vmax;
+}
+.courses > div {
+  width: 50%;
+  padding: 2vmax;
+  margin: 0 1vmax;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 30%);
+  background: linear-gradient(90deg, #f4f4ff, #fff5f7);
+}
+/* #study{
+  display: flex;
+} */
+#study > div:first-child {
+  display: flex;
+  align-items: center;
+  margin-left: 5.6vmax;
+}
+#study > div:first-child > svg {
+  border: 1px solid;
+  font-size: 3vmax;
+  border-radius: 25px;
+  padding: 0.5vmax;
+}
+
+.head-2 {
+  padding: 0.3vmax 1vmax;
+  margin: 1vmax;
+  width: fit-content;
+  border-radius: 30px;
+  border: 2px solid #8d3adb;
+  color: #181b9d;
+}
+.head-3 {
+  padding: 0 1vmax;
+  margin: 1vmax;
+  width: fit-content;
+  border-radius: 30px;
+  border: 2px solid orange;
+  color: darkgoldenrod;
+  margin-left: 0;
+}
+.student {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.student > .class-12 > div {
+  display: flex;
+  align-items: center;
+}
+.student > .class-12 > div > svg {
+  font-size: 3vmax;
+  border-radius: 25px;
+  padding: 0.5vmax;
+}
+/* .student > .class-12 > ul {
+  margin-left: 4vmax;
+} */
+.student > .class-12 > ul {
+  margin-left: 3vmax;
+}
+.student > .class-12 > ul > details > summary{
+  margin-left: 2vmax;
+  color: lightslategray;
+}
+.student > .class-12 > ul > details > summary:hover{
+ text-decoration: underline;
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+.student-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: 8vmax;
+  margin-top: 2vmax;
+}
+.student-2 > .class-12 > div {
+  display: flex;
+  align-items: center;
+}
+.student-2 > .class-12 > div > svg {
+  font-size: 3vmax;
+  border-radius: 25px;
+  padding: 0.5vmax;
+}
+.student-2 > .class-12 > ul {
+  margin-left: 4vmax;
+}
